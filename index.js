@@ -7,6 +7,9 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send('Welcome to home page')
 })
+app.get('/contact',(req,res)=>{
+    res.send('Welcome to contact page')
+})
 app.get('about',(req,res)=>{
     res.send('Welcome to About Page')
 })
