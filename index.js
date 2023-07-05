@@ -5,6 +5,9 @@ app.get('/',(req,res)=>{
     res.send('Hello World')
 })
 app.get('*',(req,res)=>{
+    res.send('Invalid Page')
+})
+app.get('*',(req,res)=>{
     res.send('page not found')
 })
 app.listen(3000,()=>{
